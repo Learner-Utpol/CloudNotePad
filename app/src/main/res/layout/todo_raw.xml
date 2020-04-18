@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <CheckBox
+            android:id="@+id/cb_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+    />
+
+    <TextView
+        android:id="@+id/itemTime"
+        android:layout_width="92dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/itemDate"
+        android:layout_alignTop="@+id/itemDate"
+        android:layout_marginStart="-102dp"
+        android:layout_marginTop="1dp"
+        android:text="10:10 Pm" />
+
+    <TextView
+        android:id="@+id/itemDate"
+        android:layout_width="100dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="53dp"
+        android:text="10/10/2019" />
+
+    <TextView
+        android:id="@+id/todoMenuRaw"
+        android:layout_width="17dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/itemDate"
+        android:layout_alignBaseline="@+id/cb_item"
+        android:layout_alignStart="@+id/cb_item"
+        android:layout_alignTop="@+id/cb_item"
+        android:layout_marginStart="351dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/menuIcon"
+        android:textColor="@android:color/black"
+        android:textSize="25sp" />
+
+
+
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

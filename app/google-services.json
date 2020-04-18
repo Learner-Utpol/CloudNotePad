@@ -1,0 +1,50 @@
+{
+  "project_info": {
+    "project_number": "892656866974",
+    "firebase_url": "https://cloudnotepad.firebaseio.com",
+    "project_id": "cloudnotepad",
+    "storage_bucket": "cloudnotepad.appspot.com"
+  },
+
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892656866974:android:2264713cf16822ba",
+        "android_client_info": {
+          "package_name": "com.raslab.cloudnotepad"
+        }
+      },
+
+      "oauth_client": [
+        {
+          "client_id": "892656866974-v6e62gtiksn6g3ukttp43cfl2u6m5586.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.raslab.cloudnotepad",
+            "certificate_hash": "1f61c70919d9a59657944330c708a3b20966599a"
+          }
+        },
+        {
+          "client_id": "892656866974-pdub8rg4api4ua912s0r3md4k5e5856l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8SUaIK_Nr3-j1OYDnJtVdL5XZgns7PPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "892656866974-pdub8rg4api4ua912s0r3md4k5e5856l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
